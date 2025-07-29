@@ -1,0 +1,18 @@
+[
+  { 
+    "id": "EVT_001", 
+    "title": "Intro Pravachan by Guru Ji", 
+    "type": "video",
+    "url": "https://storage.example.com/EVT_001.mp4",
+    "date": "2025-05-01T10:00:00Z",
+    "description": "Welcome to the Parampara!"
+  },
+  {
+    "id": "EVT_002",
+    "title": "Monthly Q&A",
+    "type": "zoom",
+    "url": "https://zoom.us/j/123456789",
+    "date": "2025-05-08T15:00:00Z",
+    "description": "Ask Guru Ji your questions live."
+  }
+]

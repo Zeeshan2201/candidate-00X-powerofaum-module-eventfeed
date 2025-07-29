@@ -1,0 +1,14 @@
+[
+  {
+    "ticketCode": "TICKET_ABC",
+    "eventId": "EVT_002",
+    "userId": "USER_002",
+    "used": true
+  },
+  {
+    "ticketCode": "TICKET_DEF",
+    "eventId": "EVT_001",
+    "userId": "USER_003",
+    "used": true
+  }
+]
