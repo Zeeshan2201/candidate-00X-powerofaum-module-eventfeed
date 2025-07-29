@@ -1,0 +1,57 @@
+{
+  "info": {
+    "name": "PowerOfAum - Module F - Events & Ticket",
+    "_postman_id": "b23a8efc-e9c0-4cbf-bfc7-abc123def456",
+    "description": "Test collection for PowerOfAum.com Module F: Content Feed and Event Ticket Verification",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "GET /api/content-feed",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/api/content-feed?userId=USER_001",
+          "host": ["{{base_url}}"],
+          "path": ["api", "content-feed"],
+          "query": [
+            {
+              "key": "userId",
+              "value": "USER_001"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "POST /api/verify-event-ticket",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"userId\": \"USER_002\",\n  \"eventId\": \"EVT_002\",\n  \"ticketCode\": \"TICKET_ABC\"\n}"
+        },
+        "url": {
+          "raw": "{{base_url}}/api/verify-event-ticket",
+          "host": ["{{base_url}}"],
+          "path": ["api", "verify-event-ticket"]
+        }
+      },
+      "response": []
+    }
+  ],
+  "variable": [
+    {
+      "key": "base_url",
+      "value": "https://candidate-003-powerofaum-module-eventfeed.vercel.app"
+    }
+  ]
+}
