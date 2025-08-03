@@ -3,7 +3,7 @@
     "ticketCode": "TICKET_ABC",
     "eventId": "EVT_002",
     "userId": "USER_002",
-    "used": true
+    "used": false
   },
   {
     "ticketCode": "TICKET_DEF",
